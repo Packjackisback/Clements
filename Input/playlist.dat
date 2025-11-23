@@ -1,0 +1,16 @@
+6 4
+DNA: Kendrick_Lamar Rap
+Everlong: Foo_Fighters Alternative
+Runaway: Bon_Jovi Rock
+TNT: AC/DC Rocks
+Dedicate: Lil_Wayne Rap
+Numb: Linkin_Park Alternative
+1
+ROTATE -2
+1
+REMOVEN Runaway
+2
+REMOVEG Sigma
+ADD Motiv8 J.Cole Rap
+1
+ADD Sigma Sigma Sigma
