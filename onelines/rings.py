@@ -1,0 +1,1 @@
+[print(line, end="") for line in open("Input/rings.dat")]

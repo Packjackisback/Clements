@@ -1,0 +1,1 @@
+(lambda f:(m_h:=next(f).split(),h:=int(m_h[1]),[print(f"{name} {(float(p)/(int(l)*int(w)*h)):.6f}")for line in f for name,p,l,w in[line.split()]]))(open("Input/venue.dat"))

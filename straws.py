@@ -12,7 +12,5 @@ for i in range(1, straw_size + 1):
         best = max(best, values[cut - 1] + opts[i - cut])
     opts[i] = best
 
-
-
 for size in straw_sizes:
     print(opts[size])

@@ -1,0 +1,1 @@
+(lambda f: (lines := list(f)[1:], num_accepted := sum(int(l.split()[1]) for l in lines if l.split()[2] == "Yes"), num_rejected := sum(int(l.split()[1]) for l in lines if l.split()[2] != "Yes"), print(f"{num_accepted} {num_rejected} {(num_accepted*100/(num_accepted+num_rejected)):.2f}%")))(open("Input/rsvps.dat"))

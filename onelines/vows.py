@@ -1,0 +1,1 @@
+(lambda f: [print(line.replace("BLANK", f[-1])) for line in f[:-1]])([line.rstrip("\n") for line in open("Input/vows.dat").readlines()][:-1])
